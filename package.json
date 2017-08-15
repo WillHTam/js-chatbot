@@ -1,0 +1,11 @@
+{
+  "name": "speech-chatbot",
+  "version": "1.0.0",
+  "description": "Speak to this dude-bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Tam <william.tam18@gmail.com>",
+  "license": "MIT"
+}
