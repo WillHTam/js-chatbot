@@ -14,7 +14,7 @@ document.querySelector('button').addEventListener('click', () => {
 })
 
 recognition.addEventListener('speechstart', () => {
-    console.log('Speech detected.')
+    console.log('BEEP BOOP SPEECH DETECTED')
 })
 
 recognition.addEventListener('result', (e) => {

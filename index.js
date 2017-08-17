@@ -23,7 +23,7 @@ io.on('connection', function(socket) {
         console.log("Message: " + text)
 
         let apiaiReq = apiai.textRequest(text, {
-            sessionId: APIAI_SESSION_ID
+            sessionId: process.env.APIAI_SESSION_ID
         })
 
         apiaiReq.on("response", response => {
