@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Talk with Wombat</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="../public/css/style.css" rel="stylesheet">
     </head>
     <body>
-        <button>Talk</button>
+        <button><i class="fa fa-microphone">Talk with Wombat</i></button>
+
+        <div>
+            <p>You said: <em class='output-you'>...</em></p>
+            <p>Wombat says: <em class='output-bot'>...</em></p>
+        </div>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
-        <script src="js/script.js"></script>
+        <script src="../public/js/script.js"></script>
     </body>
 </html>
