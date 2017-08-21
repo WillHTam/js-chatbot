@@ -4,4 +4,4 @@
 - Talk with bot on API.AI
 - Interpret your speech and say responses with WebSpeech API
 - Made with Socket.io
-
+- Need to enter an API.AI client token first
